@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+
+#login_button {
+    background-color: #4583EE;
+    color: white;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+nav  {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+    flex-shrink: 1;
+    flex-basis: auto;
+    flex-grow: 0;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87); 
+   
+}
+a:hover {
+    text-decoration: underline  ;
+}
+nav a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    margin: 0 5px 0px 0px;
+    vertical-align: middle;
+    line-height: 24px;
+    font-family: arial, sans-serif;
+
+}
+
+
+
+.button_search button {
+    border-radius: 2px;
+    border-radius: 10%;
+    border-color: #F5F5F5;
+    padding: 5px 5px;
+    color: #5F6368;
+}
+
+
+
+.button_search button:hover {
+    border-radius: 2px;
+    border-color: black;
+    color: black;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-basis: auto;
+    flex-grow: 1;
+    
+    
+}
+
+main input {
+    width: 65%;
+    border-radius : 10px;
+    padding: 10px;
+    border-color: gray;
+}
+
+footer {
+    margin-top: 20px;
+    flex: 0 1 40px;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+footer div {
+
+    border: 1px solid #e4e4e4;
+    font-size: 14px;
+    line-height: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#second_div {
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#second_div a {
+    padding: 0px 17px 0px 0px; 
+}
+
+#third_div a {
+    padding: 0px 17px 0px 0px;
+}
+
